@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #000000;
+    background-image: url('../img/patterns/skull-pattern.svg');
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: goldenrod;
+    color: white;
+}
+
+.principal {
+    display: flex; /* Siempre pone los elementos en linea */
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea si no caben */
+}
+
+.caja {
+    flex: 1 1 calc(50% - 10px); /* Reparte en espacios iguales */
+    padding: 20px;
+    background: white;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 250px;
+    height: auto;
+}
+
+a {
+    padding: 10px 0;
+    color: #867b7b;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+  }
